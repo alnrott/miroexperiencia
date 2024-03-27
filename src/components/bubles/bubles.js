@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./bubles.css";
 
 function Background({ scale, color, rotate, izq, der, arriba, abajo }) {
-  console.log("scale:", scale);
-  console.log("color:", color);
   return (
     <div
       className="background"
