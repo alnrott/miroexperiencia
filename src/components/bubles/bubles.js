@@ -39,7 +39,7 @@ function Background({ scale, color, rotate, izq, der, arriba, abajo }) {
                   fill="transparent"
                   stroke-width="35px"
                   stroke="#fff400"
-                  transform="translate(20, 20), sale(0.50)"
+                  transform="translate(20, 20)"
                   filter="url(#shadow)"
                 >
                   <animate
