@@ -2,6 +2,7 @@ import "./home.css";
 import Bubles from "../bubles/bubles";
 import Miro from "../../assets/miro.png";
 import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -46,10 +47,18 @@ function Home() {
           style={{ paddingLeft: "3rem", paddingRight: "3.5rem" }}
           ref={linkRef}
         >
-          <a className="link">Próximas fechas</a>
-          <a className="link">Registro fotográfico</a>
-          <a className="link">Necesito inspiración</a>
-          <a className="link">FAQS</a>
+          <Link to="/next-dates" className="link">
+            Próximas fechas
+          </Link>
+          <Link to="/photo-register" className="link">
+            Registro fotográfico
+          </Link>
+          <Link to="/inspiration" className="link">
+            Necesito inspiración
+          </Link>
+          <Link to="/faqs" className="link">
+            FAQS
+          </Link>
         </div>
       </nav>
 
