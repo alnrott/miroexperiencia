@@ -75,7 +75,7 @@ function Home() {
           {/* abajo a la derecha */}
           <Bubles
             izq={32}
-            rotate={192}
+            rotate={12}
             arriba={40}
             scale={0.4}
             color="#00ff00"
@@ -119,8 +119,8 @@ function Home() {
           <Bubles className="buble7" arriba={-4} scale={0.4} color="#00ff00" />
           {/* arriba al medio mas arriba */}
           <Bubles
-            izq={15}
-            arriba={-7}
+            izq={17}
+            arriba={-8}
             rotate={335}
             className="buble7"
             scale={0.4}
