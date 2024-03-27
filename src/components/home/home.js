@@ -65,12 +65,18 @@ function Home() {
       <div className="background-container">
         <div className="background-1">
           {/* arriba a la derecha */}
-          <Bubles izq={32} scale={0.4} rotate={70} color="#00ff00" />
+          <Bubles
+            arriba={-2}
+            izq={34}
+            scale={0.4}
+            rotate={70}
+            color="#00ff00"
+          />
           {/* abajo a la derecha */}
           <Bubles
             izq={32}
             rotate={192}
-            arriba={37}
+            arriba={40}
             scale={0.4}
             color="#00ff00"
           />
@@ -84,8 +90,8 @@ function Home() {
           />
           {/* medio a la izq */}
           <Bubles
-            arriba={17}
-            izq={-4}
+            arriba={14}
+            izq={1}
             rotate={90}
             className="buble4"
             scale={0.4}
@@ -102,7 +108,7 @@ function Home() {
           />
           {/* arriba al medio */}
           <Bubles
-            izq={15}
+            izq={16}
             arriba={9}
             rotate={45}
             className="buble6"
@@ -110,7 +116,7 @@ function Home() {
             color="#00ff00"
           />
           {/* arriba a la izq */}
-          <Bubles className="buble7" scale={0.4} color="#00ff00" />
+          <Bubles className="buble7" arriba={-4} scale={0.4} color="#00ff00" />
           {/* arriba al medio mas arriba */}
           <Bubles
             izq={15}
