@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Navigate,
-  Route,
-  Routes,
-  useLocation,
-  useNavigate,
-} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "../../home/home";
 import BouncingBallLoader from "./loader";
 import NextDates from "../../next-dates/next-dates";
