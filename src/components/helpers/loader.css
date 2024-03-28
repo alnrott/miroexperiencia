@@ -40,15 +40,15 @@ margin: 0;
     height: 250px;
   }
   .shadow{
-    background-color: rgba(8, 8, 8,0.05 );
     height: 10px;
     width: 75px;
     border-radius: 50%;
     position: relative;
-    left: -37px;
-    top: 139px;
+    left: -36px;
+    top: 146px;
     z-index: 1;
     animation: shirink 0.9s infinite;
+    box-shadow: inset 1px 16px 20px 20px rgba(0, 0, 0, 0.2);
   }
 
   @keyframes shirink {
