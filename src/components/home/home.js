@@ -117,7 +117,13 @@ function Home() {
             color="#00ff00"
           />
           {/* arriba a la izq */}
-          <Bubles className="buble7" arriba={-4} scale={0.4} color="#00ff00" />
+          <Bubles
+            className="buble7"
+            rotate={180}
+            arriba={-3}
+            scale={0.4}
+            color="#00ff00"
+          />
           {/* arriba al medio mas arriba */}
           <Bubles
             izq={17}
@@ -152,12 +158,20 @@ function Home() {
           <h1>¡Hola!</h1>
           <h1>Bienvenidx a la experiencia</h1>
           <img src={Miro} alt="Miro" className="miro" />{" "}
-          <button className="my-button">¡QUIERO SUMARME!</button>
+          <button className="my-button">
+            <a
+              href="https://wa.me/5492392500815?text=Estoy%20Interesado%20en%20sumarme%20para%20la%20pr%C3%B3xima%20experiencia%20de%20Miro%20en%20mi%20ciudad%20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ¡QUIERO SUMARME!
+            </a>
+          </button>
         </div>
       </div>
       <div className="whatsapp-icon">
         <a
-          href="https://wa.me/+54 9 2392 50-0815"
+          href="https://wa.me/5492392500815?text=Estoy%20Interesado%20en%20sumarme%20para%20la%20pr%C3%B3xima%20experiencia%20de%20Miro%20en%20mi%20ciudad%20"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-icon"
