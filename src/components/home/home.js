@@ -3,6 +3,7 @@ import Bubles from "../bubles/bubles";
 import Miro from "../../assets/miro.png";
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -153,6 +154,26 @@ function Home() {
           <img src={Miro} alt="Miro" className="miro" />{" "}
           <button className="my-button">¡QUIERO SUMARME!</button>
         </div>
+      </div>
+      <div className="whatsapp-icon">
+        <a
+          href="https://wa.me/1234567890"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-icon"
+        >
+          <FaWhatsapp />
+        </a>
+      </div>
+      <div className="instagram-icon">
+        <a
+          href="https://www.instagram.com/miroexperiencia/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="instagram-icon"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </div>
   );
