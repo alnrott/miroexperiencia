@@ -27,20 +27,18 @@
 .whatsapp-icon {
   position: fixed;
   bottom: 10px;
-  right: 20px;
+  right: 4rem;
   z-index: 3;
   color: white;
-
-  font-size: 44px;
+  font-size: 24px;
 }
 .instagram-icon{
   position: fixed;
   bottom: 10px;
-  right: 80px;
+  right: 20px;
   z-index: 3;
   color: white;
-
-  font-size: 44px;
+  font-size: 24px;
 }
 
 .glass-box h1 {
