@@ -157,7 +157,7 @@ function Home() {
       </div>
       <div className="whatsapp-icon">
         <a
-          href="https://wa.me/1234567890"
+          href="https://wa.me/+54 9 2392 50-0815"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-icon"
