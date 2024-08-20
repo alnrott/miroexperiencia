@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.next-dates-section{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgb(14, 81, 229) 0%, #3485ff 100%);
+}
+
+h1{
+    color: #ffee00;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'stardom-Regular';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.glass-boxx {
+    position: relative;  
+    border-radius: 10px;
+    padding-top: 0rem ;
+    height: 5rem!important;
+    margin-bottom: 0rem!important;
+    margin-top: -10rem!important;
+    width: 20rem!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0))!important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px)!important;
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);  width: 75%; 
+    margin: auto;
+}
+
+.glass-boxx h1{
+    color: white;
+}

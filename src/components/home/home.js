@@ -48,9 +48,9 @@ function Home() {
           style={{ paddingLeft: "3rem", paddingRight: "3.5rem" }}
           ref={linkRef}
         >
-          <Link to="/next-dates" className="link">
+          {/* <Link to="/next-dates" className="link">
             Próximas fechas
-          </Link>
+          </Link> */}
           <Link to="/photo-register" className="link">
             Registro fotográfico
           </Link>
@@ -160,7 +160,7 @@ function Home() {
           <img src={Miro} alt="Miro" className="miro" />{" "}
           <button className="my-button">
             <a
-              href="https://wa.me/5492392500815?text=Estoy%20Interesado%20en%20sumarme%20para%20la%20pr%C3%B3xima%20experiencia%20de%20Miro%20en%20mi%20ciudad%20"
+              href="https://wa.me/5492392500815?text=Hola!%20Estoy%20interesadx%20en%20sumarme%20al%20pr%C3%B3ximo%20evento%20de%20Miro%20💛"
               target="_blank"
               rel="noopener noreferrer"
             >
