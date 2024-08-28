@@ -171,7 +171,7 @@ function Home() {
       </div>
       <div className="whatsapp-icon">
         <a
-          href="https://wa.me/5492392500815?text=Hola!%20Estoy%20interesadx%20en%20sumarme%20al%20pr%C3%B3ximo%20evento%20de%20Miro%20%F0%9F%92%9B"
+          href="https://wa.me/5493518526604?text=Hola!%20Estoy%20interesadx%20en%20sumarme%20al%20pr%C3%B3ximo%20evento%20de%20Miro%20%F0%9F%92%9B"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-icon"
